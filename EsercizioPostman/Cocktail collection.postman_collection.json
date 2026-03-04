@@ -1,0 +1,217 @@
+{
+	"info": {
+		"_postman_id": "29f27877-b0c5-43c4-9c34-a8b939d8971b",
+		"name": "Cocktail collection",
+		"description": "**This is the collection**\n\nYou can use it for test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24947465"
+	},
+	"item": [
+		{
+			"name": "Get cocktail by name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}?&s=margarita",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null
+						},
+						{
+							"key": "s",
+							"value": "margarita"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get cocktail by name",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}?&s=london",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"query": [
+								{
+									"key": null,
+									"value": null
+								},
+								{
+									"key": "s",
+									"value": "london"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 15 Dec 2022 22:16:31 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.33"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=RGmViRcsqtG4K666aFFhonO%2FajCXjdG%2B6hTVNfTLcfvE5QWVGtee8F6jWOP5tP6gyfPjLn2Ijiy%2BIPWH%2B32aJiE2RTpOSKbHG%2BNHEI8rNtahrbTswm7DtzcnN2TIymxetSs3pTW4Bjg%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "NEL",
+							"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "77a28b4b2b691e65-MUC"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"drinks\": [\n        {\n            \"idDrink\": \"11007\",\n            \"strDrink\": \"Margarita\",\n            \"strDrinkAlternate\": null,\n            \"strTags\": \"IBA,ContemporaryClassic\",\n            \"strVideo\": null,\n            \"strCategory\": \"Ordinary Drink\",\n            \"strIBA\": \"Contemporary Classics\",\n            \"strAlcoholic\": \"Alcoholic\",\n            \"strGlass\": \"Cocktail glass\",\n            \"strInstructions\": \"Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.\",\n            \"strInstructionsES\": null,\n            \"strInstructionsDE\": \"Reiben Sie den Rand des Glases mit der Limettenscheibe, damit das Salz daran haftet. Achten Sie darauf, dass nur der äußere Rand angefeuchtet wird und streuen Sie das Salz darauf. Das Salz sollte sich auf den Lippen des Genießers befinden und niemals in den Cocktail einmischen. Die anderen Zutaten mit Eis schütteln und vorsichtig in das Glas geben.\",\n            \"strInstructionsFR\": null,\n            \"strInstructionsIT\": \"Strofina il bordo del bicchiere con la fetta di lime per far aderire il sale.\\r\\nAvere cura di inumidire solo il bordo esterno e cospargere di sale.\\r\\nIl sale dovrebbe presentarsi alle labbra del bevitore e non mescolarsi mai al cocktail.\\r\\nShakerare gli altri ingredienti con ghiaccio, quindi versarli delicatamente nel bicchiere.\",\n            \"strInstructionsZH-HANS\": null,\n            \"strInstructionsZH-HANT\": null,\n            \"strDrinkThumb\": \"https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg\",\n            \"strIngredient1\": \"Tequila\",\n            \"strIngredient2\": \"Triple sec\",\n            \"strIngredient3\": \"Lime juice\",\n            \"strIngredient4\": \"Salt\",\n            \"strIngredient5\": null,\n            \"strIngredient6\": null,\n            \"strIngredient7\": null,\n            \"strIngredient8\": null,\n            \"strIngredient9\": null,\n            \"strIngredient10\": null,\n            \"strIngredient11\": null,\n            \"strIngredient12\": null,\n            \"strIngredient13\": null,\n            \"strIngredient14\": null,\n            \"strIngredient15\": null,\n            \"strMeasure1\": \"1 1/2 oz \",\n            \"strMeasure2\": \"1/2 oz \",\n            \"strMeasure3\": \"1 oz \",\n            \"strMeasure4\": null,\n            \"strMeasure5\": null,\n            \"strMeasure6\": null,\n            \"strMeasure7\": null,\n            \"strMeasure8\": null,\n            \"strMeasure9\": null,\n            \"strMeasure10\": null,\n            \"strMeasure11\": null,\n            \"strMeasure12\": null,\n            \"strMeasure13\": null,\n            \"strMeasure14\": null,\n            \"strMeasure15\": null,\n            \"strImageSource\": \"https://commons.wikimedia.org/wiki/File:Klassiche_Margarita.jpg\",\n            \"strImageAttribution\": \"Cocktailmarler\",\n            \"strCreativeCommonsConfirmed\": \"Yes\",\n            \"dateModified\": \"2015-08-18 14:42:59\"\n        },\n        {\n            \"idDrink\": \"11118\",\n            \"strDrink\": \"Blue Margarita\",\n            \"strDrinkAlternate\": null,\n            \"strTags\": null,\n            \"strVideo\": null,\n            \"strCategory\": \"Ordinary Drink\",\n            \"strIBA\": null,\n            \"strAlcoholic\": \"Alcoholic\",\n            \"strGlass\": \"Cocktail glass\",\n            \"strInstructions\": \"Rub rim of cocktail glass with lime juice. Dip rim in coarse salt. Shake tequila, blue curacao, and lime juice with ice, strain into the salt-rimmed glass, and serve.\",\n            \"strInstructionsES\": null,\n            \"strInstructionsDE\": \"Den Rand des Cocktailglases mit Limettensaft einreiben. Den Rand in grobes Salz tauchen. Tequila, blauen Curacao und Limettensaft mit Eis schütteln, in das mit Salz umhüllte Glas abseihen und servieren.\",\n            \"strInstructionsFR\": null,\n            \"strInstructionsIT\": \"Strofinare il bordo del bicchiere da cocktail con succo di lime. Immergere il bordo nel sale grosso. Shakerare tequila, blue curacao e succo di lime con ghiaccio, filtrare nel bicchiere bordato di sale e servire.\",\n            \"strInstructionsZH-HANS\": null,\n            \"strInstructionsZH-HANT\": null,\n            \"strDrinkThumb\": \"https://www.thecocktaildb.com/images/media/drink/bry4qh1582751040.jpg\",\n            \"strIngredient1\": \"Tequila\",\n            \"strIngredient2\": \"Blue Curacao\",\n            \"strIngredient3\": \"Lime juice\",\n            \"strIngredient4\": \"Salt\",\n            \"strIngredient5\": null,\n            \"strIngredient6\": null,\n            \"strIngredient7\": null,\n            \"strIngredient8\": null,\n            \"strIngredient9\": null,\n            \"strIngredient10\": null,\n            \"strIngredient11\": null,\n            \"strIngredient12\": null,\n            \"strIngredient13\": null,\n            \"strIngredient14\": null,\n            \"strIngredient15\": null,\n            \"strMeasure1\": \"1 1/2 oz \",\n            \"strMeasure2\": \"1 oz \",\n            \"strMeasure3\": \"1 oz \",\n            \"strMeasure4\": \"Coarse \",\n            \"strMeasure5\": null,\n            \"strMeasure6\": null,\n            \"strMeasure7\": null,\n            \"strMeasure8\": null,\n            \"strMeasure9\": null,\n            \"strMeasure10\": null,\n            \"strMeasure11\": null,\n            \"strMeasure12\": null,\n            \"strMeasure13\": null,\n            \"strMeasure14\": null,\n            \"strMeasure15\": null,\n            \"strImageSource\": null,\n            \"strImageAttribution\": null,\n            \"strCreativeCommonsConfirmed\": \"Yes\",\n            \"dateModified\": \"2015-08-18 14:51:53\"\n        },\n        {\n            \"idDrink\": \"17216\",\n            \"strDrink\": \"Tommy's Margarita\",\n            \"strDrinkAlternate\": null,\n            \"strTags\": \"IBA,NewEra\",\n            \"strVideo\": null,\n            \"strCategory\": \"Ordinary Drink\",\n            \"strIBA\": \"New Era Drinks\",\n            \"strAlcoholic\": \"Alcoholic\",\n            \"strGlass\": \"Old-Fashioned glass\",\n            \"strInstructions\": \"Shake and strain into a chilled cocktail glass.\",\n            \"strInstructionsES\": null,\n            \"strInstructionsDE\": \"Schütteln und in ein gekühltes Cocktailglas abseihen.\",\n            \"strInstructionsFR\": null,\n            \"strInstructionsIT\": \"Shakerare e filtrare in una coppetta da cocktail ghiacciata.\",\n            \"strInstructionsZH-HANS\": null,\n            \"strInstructionsZH-HANT\": null,\n            \"strDrinkThumb\": \"https://www.thecocktaildb.com/images/media/drink/loezxn1504373874.jpg\",\n            \"strIngredient1\": \"Tequila\",\n            \"strIngredient2\": \"Lime Juice\",\n            \"strIngredient3\": \"Agave syrup\",\n            \"strIngredient4\": null,\n            \"strIngredient5\": null,\n            \"strIngredient6\": null,\n            \"strIngredient7\": null,\n            \"strIngredient8\": null,\n            \"strIngredient9\": null,\n            \"strIngredient10\": null,\n            \"strIngredient11\": null,\n            \"strIngredient12\": null,\n            \"strIngredient13\": null,\n            \"strIngredient14\": null,\n            \"strIngredient15\": null,\n            \"strMeasure1\": \"4.5 cl\",\n            \"strMeasure2\": \"1.5 cl\",\n            \"strMeasure3\": \"2 spoons\",\n            \"strMeasure4\": null,\n            \"strMeasure5\": null,\n            \"strMeasure6\": null,\n            \"strMeasure7\": null,\n            \"strMeasure8\": null,\n            \"strMeasure9\": null,\n            \"strMeasure10\": null,\n            \"strMeasure11\": null,\n            \"strMeasure12\": null,\n            \"strMeasure13\": null,\n            \"strMeasure14\": null,\n            \"strMeasure15\": null,\n            \"strImageSource\": null,\n            \"strImageAttribution\": null,\n            \"strCreativeCommonsConfirmed\": \"No\",\n            \"dateModified\": \"2017-09-02 18:37:54\"\n        },\n        {\n            \"idDrink\": \"16158\",\n            \"strDrink\": \"Whitecap Margarita\",\n            \"strDrinkAlternate\": null,\n            \"strTags\": null,\n            \"strVideo\": null,\n            \"strCategory\": \"Other / Unknown\",\n            \"strIBA\": null,\n            \"strAlcoholic\": \"Alcoholic\",\n            \"strGlass\": \"Margarita/Coupette glass\",\n            \"strInstructions\": \"Place all ingredients in a blender and blend until smooth. This makes one drink.\",\n            \"strInstructionsES\": null,\n            \"strInstructionsDE\": \"Alle Zutaten in einen Mixer geben und mischen.\",\n            \"strInstructionsFR\": null,\n            \"strInstructionsIT\": \"Metti tutti gli ingredienti in un frullatore e frulla fino a che non diventa liscio.\",\n            \"strInstructionsZH-HANS\": null,\n            \"strInstructionsZH-HANT\": null,\n            \"strDrinkThumb\": \"https://www.thecocktaildb.com/images/media/drink/srpxxp1441209622.jpg\",\n            \"strIngredient1\": \"Ice\",\n            \"strIngredient2\": \"Tequila\",\n            \"strIngredient3\": \"Cream of coconut\",\n            \"strIngredient4\": \"Lime juice\",\n            \"strIngredient5\": null,\n            \"strIngredient6\": null,\n            \"strIngredient7\": null,\n            \"strIngredient8\": null,\n            \"strIngredient9\": null,\n            \"strIngredient10\": null,\n            \"strIngredient11\": null,\n            \"strIngredient12\": null,\n            \"strIngredient13\": null,\n            \"strIngredient14\": null,\n            \"strIngredient15\": null,\n            \"strMeasure1\": \"1 cup \",\n            \"strMeasure2\": \"2 oz \",\n            \"strMeasure3\": \"1/4 cup \",\n            \"strMeasure4\": \"3 tblsp fresh \",\n            \"strMeasure5\": null,\n            \"strMeasure6\": null,\n            \"strMeasure7\": null,\n            \"strMeasure8\": null,\n            \"strMeasure9\": null,\n            \"strMeasure10\": null,\n            \"strMeasure11\": null,\n            \"strMeasure12\": null,\n            \"strMeasure13\": null,\n            \"strMeasure14\": null,\n            \"strMeasure15\": null,\n            \"strImageSource\": null,\n            \"strImageAttribution\": null,\n            \"strCreativeCommonsConfirmed\": \"No\",\n            \"dateModified\": \"2015-09-02 17:00:22\"\n        },\n        {\n            \"idDrink\": \"12322\",\n            \"strDrink\": \"Strawberry Margarita\",\n            \"strDrinkAlternate\": null,\n            \"strTags\": null,\n            \"strVideo\": null,\n            \"strCategory\": \"Ordinary Drink\",\n            \"strIBA\": null,\n            \"strAlcoholic\": \"Alcoholic\",\n            \"strGlass\": \"Cocktail glass\",\n            \"strInstructions\": \"Rub rim of cocktail glass with lemon juice and dip rim in salt. Shake schnapps, tequila, triple sec, lemon juice, and strawberries with ice, strain into the salt-rimmed glass, and serve.\",\n            \"strInstructionsES\": null,\n            \"strInstructionsDE\": \"Cocktailglasrand mit Zitronensaft und Tauchrand in Salz wenden. Schnaps, Tequila, Triple-Sec, Zitronensaft und Erdbeeren mit Eis schütteln, in das salzige Glas sieben und servieren.\",\n            \"strInstructionsFR\": null,\n            \"strInstructionsIT\": \"Strofinare il bordo del bicchiere da cocktail con succo di limone e immergerlo nel sale. Shakerare grappa, tequila, triple sec, succo di limone e fragole con ghiaccio, filtrare nel bicchiere bordato di sale e servire.\",\n            \"strInstructionsZH-HANS\": null,\n            \"strInstructionsZH-HANT\": null,\n            \"strDrinkThumb\": \"https://www.thecocktaildb.com/images/media/drink/tqyrpw1439905311.jpg\",\n            \"strIngredient1\": \"Strawberry schnapps\",\n            \"strIngredient2\": \"Tequila\",\n            \"strIngredient3\": \"Triple sec\",\n            \"strIngredient4\": \"Lemon juice\",\n            \"strIngredient5\": \"Strawberries\",\n            \"strIngredient6\": \"Salt\",\n            \"strIngredient7\": null,\n            \"strIngredient8\": null,\n            \"strIngredient9\": null,\n            \"strIngredient10\": null,\n            \"strIngredient11\": null,\n            \"strIngredient12\": null,\n            \"strIngredient13\": null,\n            \"strIngredient14\": null,\n            \"strIngredient15\": null,\n            \"strMeasure1\": \"1/2 oz \",\n            \"strMeasure2\": \"1 oz \",\n            \"strMeasure3\": \"1/2 oz \",\n            \"strMeasure4\": \"1 oz \",\n            \"strMeasure5\": \"1 oz \",\n            \"strMeasure6\": null,\n            \"strMeasure7\": null,\n            \"strMeasure8\": null,\n            \"strMeasure9\": null,\n            \"strMeasure10\": null,\n            \"strMeasure11\": null,\n            \"strMeasure12\": null,\n            \"strMeasure13\": null,\n            \"strMeasure14\": null,\n            \"strMeasure15\": null,\n            \"strImageSource\": null,\n            \"strImageAttribution\": null,\n            \"strCreativeCommonsConfirmed\": \"No\",\n            \"dateModified\": \"2015-08-18 14:41:51\"\n        },\n        {\n            \"idDrink\": \"178332\",\n            \"strDrink\": \"Smashed Watermelon Margarita\",\n            \"strDrinkAlternate\": null,\n            \"strTags\": null,\n            \"strVideo\": null,\n            \"strCategory\": \"Cocktail\",\n            \"strIBA\": null,\n            \"strAlcoholic\": \"Alcoholic\",\n            \"strGlass\": \"Collins glass\",\n            \"strInstructions\": \"In a mason jar muddle the watermelon and 5 mint leaves together into a puree and strain. Next add the grapefruit juice, juice of half a lime and the tequila as well as some ice. Put a lid on the jar and shake. Pour into a glass and add more ice. Garnish with fresh mint and a small slice of watermelon.\",\n            \"strInstructionsES\": null,\n            \"strInstructionsDE\": null,\n            \"strInstructionsFR\": null,\n            \"strInstructionsIT\": \"In un barattolo di vetro pestare l'anguria e 5 foglie di menta insieme, filtrare il contenuto in un bicchiere. Quindi aggiungere il succo di pompelmo, il succo di mezzo lime, la tequila e un po 'di ghiaccio. Metti un coperchio sul barattolo e agita. Versare in un bicchiere e aggiungere altro ghiaccio. Guarnire con menta fresca e una fettina di anguria.\",\n            \"strInstructionsZH-HANS\": null,\n            \"strInstructionsZH-HANT\": null,\n            \"strDrinkThumb\": \"https://www.thecocktaildb.com/images/media/drink/dztcv51598717861.jpg\",\n            \"strIngredient1\": \"Watermelon\",\n            \"strIngredient2\": \"Mint\",\n            \"strIngredient3\": \"Grapefruit Juice\",\n            \"strIngredient4\": \"Lime\",\n            \"strIngredient5\": \"Tequila\",\n            \"strIngredient6\": \"Watermelon\",\n            \"strIngredient7\": \"Mint\",\n            \"strIngredient8\": null,\n            \"strIngredient9\": null,\n            \"strIngredient10\": null,\n            \"strIngredient11\": null,\n            \"strIngredient12\": null,\n            \"strIngredient13\": null,\n            \"strIngredient14\": null,\n            \"strIngredient15\": null,\n            \"strMeasure1\": \"1/2 cup\",\n            \"strMeasure2\": \"5\",\n            \"strMeasure3\": \"1/3 Cup\",\n            \"strMeasure4\": \"Juice of 1/2\",\n            \"strMeasure5\": \"1 shot\",\n            \"strMeasure6\": \"Garnish with\",\n            \"strMeasure7\": \"Garnish with\",\n            \"strMeasure8\": null,\n            \"strMeasure9\": null,\n            \"strMeasure10\": null,\n            \"strMeasure11\": null,\n            \"strMeasure12\": null,\n            \"strMeasure13\": null,\n            \"strMeasure14\": null,\n            \"strMeasure15\": null,\n            \"strImageSource\": null,\n            \"strImageAttribution\": null,\n            \"strCreativeCommonsConfirmed\": \"No\",\n            \"dateModified\": null\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Get cocktail by ingredient name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}?i=rum",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"query": [
+						{
+							"key": "i",
+							"value": "rum"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get cocktail by ingredient name",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}?i=rum",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"query": [
+								{
+									"key": "i",
+									"value": "rum"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 15 Dec 2022 22:19:07 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.33"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=xP7cwMg2M0U9YdHbDvsEKEx9Z6wyzICxTU9cqSMx91nJTc2KTHFIwKWYdhO7jbvOfkfn%2Bjp3IK2glY5z%2BWI8UOPzjICWS3c%2FS6%2BbteXubYwE9wtPbNjqRo%2FE63vP1nC1y4rX2V1t3dg%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "NEL",
+							"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "77a28f19095f1e65-MUC"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"ingredients\": [\n        {\n            \"idIngredient\": \"3\",\n            \"strIngredient\": \"Rum\",\n            \"strDescription\": \"Rum is a distilled alcoholic beverage made from sugarcane byproducts, such as molasses, or directly from sugarcane juice, by a process of fermentation and distillation. The distillate, a clear liquid, is then usually aged in oak barrels.\\r\\n\\r\\nThe majority of the world's rum production occurs in the Caribbean and Latin America. Rum is also produced in Scotland, Austria, Spain, Australia, New Zealand, Fiji, the Philippines, India, Reunion Island, Mauritius, South Africa, Taiwan, Thailand, Japan, the United States, and Canada.\\r\\n\\r\\nRums are produced in various grades. Light rums are commonly used in cocktails, whereas \\\"golden\\\" and \\\"dark\\\" rums were typically consumed straight or neat, on the rocks, or used for cooking, but are now commonly consumed with mixers. Premium rums are also available, made to be consumed either straight or iced.\\r\\n\\r\\nRum plays a part in the culture of most islands of the West Indies as well as in The Maritimes and Newfoundland. This beverage has famous associations with the Royal Navy (where it was mixed with water or beer to make grog) and piracy (where it was consumed as bumbo). Rum has also served as a popular medium of economic exchange, used to help fund enterprises such as slavery (see Triangular trade), organized crime, and military insurgencies (e.g., the American Revolution and Australia's Rum Rebellion).\\r\\n\\r\\nThe precursors to rum date back to antiquity. Development of fermented drinks produced from sugarcane juice is believed to have first occurred either in ancient India or in China, and to have spread from there. An example of such an early drink is brum. Produced by the Malay people, brum dates back thousands of years. Marco Polo also recorded a 14th-century account of a \\\"very good wine of sugar\\\" that was offered to him in the area that became modern-day Iran.\\r\\n\\r\\nThe first distillation of rum took place on the sugarcane plantations of the Caribbean in the 17th century. Plantation slaves first discovered molasses, a byproduct of the sugar refining process, could be fermented into alcohol. Later, distillation of these alcoholic byproducts concentrated the alcohol and removed impurities, producing the first true rums. Tradition suggests rum first originated on the island of Barbados. However, in the decade of the 1620s, rum production was recorded in Brazil. A liquid identified as rum has been found in a tin bottle found on the Swedish warship Vasa, which sank in 1628.\\r\\n\\r\\nA 1651 document from Barbados stated, \\\"The chief fuddling they make in the island is Rumbullion, alias Kill-Divil, and thi is made of sugar canes distilled, a hot, hellish, and terrible liquor.\\\"\",\n            \"strType\": \"Rum\",\n            \"strAlcohol\": \"Yes\",\n            \"strABV\": \"40\"\n        }\n    ]\n}"
+				}
+			]
+		}
+	]
+}

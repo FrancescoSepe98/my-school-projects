@@ -1,0 +1,131 @@
+{
+	"info": {
+		"_postman_id": "710fcb71-12c2-463f-84f1-b3caf571547d",
+		"name": "Agify.io",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24947465"
+	},
+	"item": [
+		{
+			"name": "GET multiple predict age",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.agify.io?name[]=lucy&name[]=bob&name[]=alice",
+					"protocol": "https",
+					"host": [
+						"api",
+						"agify",
+						"io"
+					],
+					"query": [
+						{
+							"key": "name[]",
+							"value": "lucy"
+						},
+						{
+							"key": "name[]",
+							"value": "bob"
+						},
+						{
+							"key": "name[]",
+							"value": "alice"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "GET multiple predict age",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.agify.io?name[]=lucy&name[]=bob&name[]=alice",
+							"protocol": "https",
+							"host": [
+								"api",
+								"agify",
+								"io"
+							],
+							"query": [
+								{
+									"key": "name[]",
+									"value": "lucy"
+								},
+								{
+									"key": "name[]",
+									"value": "bob"
+								},
+								{
+									"key": "name[]",
+									"value": "alice"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.16.1"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 15 Dec 2022 23:00:06 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "118"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "access-control-allow-credentials",
+							"value": "true"
+						},
+						{
+							"key": "access-control-allow-origin",
+							"value": "*"
+						},
+						{
+							"key": "access-control-expose-headers",
+							"value": "x-rate-limit-limit,x-rate-limit-remaining,x-rate-limit-reset"
+						},
+						{
+							"key": "cache-control",
+							"value": "max-age=0, private, must-revalidate"
+						},
+						{
+							"key": "x-rate-limit-limit",
+							"value": "1000"
+						},
+						{
+							"key": "x-rate-limit-remaining",
+							"value": "992"
+						},
+						{
+							"key": "x-rate-limit-reset",
+							"value": "3594"
+						},
+						{
+							"key": "x-request-id",
+							"value": "FzEZtiZeR15azK4GZCwy"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"age\": 55,\n        \"count\": 25515,\n        \"name\": \"lucy\"\n    },\n    {\n        \"age\": 68,\n        \"count\": 43997,\n        \"name\": \"bob\"\n    },\n    {\n        \"age\": 54,\n        \"count\": 69230,\n        \"name\": \"alice\"\n    }\n]"
+				}
+			]
+		}
+	]
+}
